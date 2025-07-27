@@ -14,39 +14,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1753247853
+  lastShownTimestamp: 1753593821
   lastUpdateResponse:
-    version: 1.00
+    version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1753247853
+  checkedLastUpdateTimestamp: 1753593821
   lastQOTDResponse:
-    questionId: 163
-    questionText: What is the purpose of Unity Hub?
-    answerA: Provide a space for the community to interact
-    answerB: Manage different Unity versions and Projects
-    answerC: Dashboard for Unity services
+    questionId: 205
+    questionText: 'Is this valid code?
+
+      <p>Color? myColor = null;</p>'
+    answerA: Yes
+    answerB: No, myColor is a struct and cannot be null
+    answerC: 
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1753247853
+  lastQotdTimestamp: 1753593821
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleBundleSyntyMar25.png
-    topText: Make ANY game with these awesome Assets! (96% OFF ENDS SOON!)
-    topLink: humblebundle
-    bottomText: Learn Unity DOTS for MASSIVE Performance Boosts! (and make an RTS)
-    bottomLink: dotscourse
-  lastDynamicHeaderTimestamp: 1753247853
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
+    topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
+    topLink: summer2025bundle
+    bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
+      OFF right now!
+    bottomLink: toolkit
+  lastDynamicHeaderTimestamp: 1753593821
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1753247853
+  websiteLatestMessageTimestamp: 1753593821
   websiteLatestVideos:
     videos:
-    - youTubeId: ZIg7VoD9ptI
-      title: The FUTURE of Unity in 2025 and BEYOND!
-    - youTubeId: W_XOZAWJF24
-      title: I made the MOST PROFITABLE Game as a Test!
-    - youTubeId: J0KMvH-yFmA
-      title: TOP 10 NEW Games, Made with Unity! (FEBRUARY 2025)
-    - youTubeId: DOSLOa7cnoE
-      title: I SHOULD have done this a long time ago, and YOU too!
-  websiteLatestVideosTimestamp: 1753247853
+    - youTubeId: YMMS621ZoI8
+      title: NEW Steam 2025 Marketing Tips you NEED to know!
+    - youTubeId: SfZquiwnEPQ
+      title: TOP 10 NEW Systems and Tools JUNE 2025! | Unity Asset Store
+    - youTubeId: oBCXk_6Fft0
+      title: This MISTAKE cost $28,000,000!
+    - youTubeId: TYgEWbK-mCc
+      title: Learn C# by DOING, Hangman Beginner Project (Overview + Walkthrough)
+  websiteLatestVideosTimestamp: 1753593821
