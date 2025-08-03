@@ -14,22 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1753593821
+  lastShownTimestamp: 1754137460
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1753593821
+  checkedLastUpdateTimestamp: 1754137460
   lastQOTDResponse:
-    questionId: 205
-    questionText: 'Is this valid code?
-
-      <p>Color? myColor = null;</p>'
-    answerA: Yes
-    answerB: No, myColor is a struct and cannot be null
-    answerC: 
-    answerD: 
+    questionId: 207
+    questionText: How should you store the health of each unit in your game?
+    answerA: public int health;
+    answerB: private int health;
+    answerC: public static int health;
+    answerD: private int h;
     answerE: 
-  lastQotdTimestamp: 1753593821
+  lastQotdTimestamp: 1754137460
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
     topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
@@ -37,19 +35,19 @@ MonoBehaviour:
     bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
       OFF right now!
     bottomLink: toolkit
-  lastDynamicHeaderTimestamp: 1753593821
+  lastDynamicHeaderTimestamp: 1754137460
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1753593821
+  websiteLatestMessageTimestamp: 1754137460
   websiteLatestVideos:
     videos:
+    - youTubeId: ubBS7vTQlVo
+      title: Cooking is HARDER than Programming!
+    - youTubeId: kWRCB-R2Yrg
+      title: TOP 20 Visual Assets to INSPIRE YOU! (JULY 2025)
+    - youTubeId: K-AjBKP4uq0
+      title: I Made Over $1 MILLION Making Indie Games, Could YOU Do This in 2025?
     - youTubeId: YMMS621ZoI8
       title: NEW Steam 2025 Marketing Tips you NEED to know!
-    - youTubeId: SfZquiwnEPQ
-      title: TOP 10 NEW Systems and Tools JUNE 2025! | Unity Asset Store
-    - youTubeId: oBCXk_6Fft0
-      title: This MISTAKE cost $28,000,000!
-    - youTubeId: TYgEWbK-mCc
-      title: Learn C# by DOING, Hangman Beginner Project (Overview + Walkthrough)
-  websiteLatestVideosTimestamp: 1753593821
+  websiteLatestVideosTimestamp: 1754137460
