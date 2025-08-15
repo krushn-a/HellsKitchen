@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1754379379
+  lastShownTimestamp: 1755233597
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1754379379
+  checkedLastUpdateTimestamp: 1755233597
   lastQOTDResponse:
-    questionId: 208
-    questionText: Which namespace do we need to use File.WriteAllText()?
-    answerA: using System;
-    answerB: using UnityEngine;
-    answerC: using System.IO;
-    answerD: using UnityEngine.UI;
+    questionId: 211
+    questionText: Can you modify transform.forward directly to rotate a transform?
+    answerA: Yes
+    answerB: No
+    answerC: 
+    answerD: 
     answerE: 
-  lastQotdTimestamp: 1754379379
+  lastQotdTimestamp: 1755233597
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
     topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
@@ -35,19 +35,19 @@ MonoBehaviour:
     bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
       OFF right now!
     bottomLink: toolkit
-  lastDynamicHeaderTimestamp: 1754379379
+  lastDynamicHeaderTimestamp: 1755233597
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1754379379
+  websiteLatestMessageTimestamp: 1755233597
   websiteLatestVideos:
     videos:
-    - youTubeId: DaKW4kqFlao
-      title: How to LEARN new Skills on HARD MODE!
-    - youTubeId: ubBS7vTQlVo
-      title: Cooking is HARDER than Programming!
-    - youTubeId: kWRCB-R2Yrg
-      title: TOP 20 Visual Assets to INSPIRE YOU! (JULY 2025)
-    - youTubeId: K-AjBKP4uq0
-      title: I Made Over $1 MILLION Making Indie Games, Could YOU Do This in 2025?
-  websiteLatestVideosTimestamp: 1754379379
+    - youTubeId: taWg92DaORw
+      title: The 5 MUST HAVE Assets you NEED! (SALE ENDS SOON!)
+    - youTubeId: nGKd4yTP3M8
+      title: Learn Unity 2D Beginner FREE COMPLETE Course
+    - youTubeId: 7xz5Xh4E_B0
+      title: I NEED your HELP!
+    - youTubeId: y-w3vnh_f4Q
+      title: Are Old Tutorials OBSOLETE?
+  websiteLatestVideosTimestamp: 1755233597
