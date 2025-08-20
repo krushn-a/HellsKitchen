@@ -518,6 +518,17 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!114 &500203229 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7152348799377106670, guid: 8dcde07de36e12e46a4fc1190d65bfd7, type: 3}
+  m_PrefabInstance: {fileID: 1611720410}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0102c7617640f14c90068866b71ab15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &655798437
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,6 +1007,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7152348799377106670, guid: 8dcde07de36e12e46a4fc1190d65bfd7, type: 3}
+      propertyPath: TomataoPrefab
+      value: 
+      objectReference: {fileID: 1487494184670509754, guid: e4cdcbd58671c03498663316752e6b92, type: 3}
+    - target: {fileID: 7152348799377106670, guid: 8dcde07de36e12e46a4fc1190d65bfd7, type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 8052999dcd354f940ba98d21654a5455, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1097,6 +1116,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7152348799377106670, guid: 8dcde07de36e12e46a4fc1190d65bfd7, type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7152348799377106670, guid: 8dcde07de36e12e46a4fc1190d65bfd7, type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 500203229}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
