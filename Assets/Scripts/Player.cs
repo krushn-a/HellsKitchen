@@ -3,17 +3,20 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IKitchenObjectParent
 {
     public static Player Instance { get; private set; }
 
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private GameInput gameInput;
-    [SerializeField] private LayerMask CounterLayerMask;
-    
+    [SerializeField] private LayerMask counterLayerMask;
+    [SerializeField] private Transform kitchenObjectHoldPoint;
+
     private bool isWalking;
     private Vector3 LastInteraction;
-    private ClearCounter selectedCounter;
+    private BaseCounter selectedCounter;
+    private KitchenObject kitchenObject;
+
 
     public event EventHandler<OnSelectedCounterChangedEventArgs> OnSelectedCounterChanged;
     
@@ -22,7 +25,7 @@ public class Player : MonoBehaviour
     public class OnSelectedCounterChangedEventArgs : EventArgs
     {
         //this is the ClearCounter that is currently selected by the player
-        public ClearCounter SelectedCounter;
+        public BaseCounter SelectedCounter;
     }
 
     private void Awake()
@@ -42,7 +45,7 @@ public class Player : MonoBehaviour
     {
         if (selectedCounter != null) 
         {
-            selectedCounter.Interact();
+            selectedCounter.Interact(this);
         }
     }
 
@@ -69,14 +72,14 @@ public class Player : MonoBehaviour
         }
 
         float interactionDistance = 2f;
-        if (Physics.Raycast(transform.position, LastInteraction, out RaycastHit raycasthit, interactionDistance,CounterLayerMask))
+        if (Physics.Raycast(transform.position, LastInteraction, out RaycastHit raycasthit, interactionDistance,counterLayerMask))
         {
-            if (raycasthit.transform.TryGetComponent(out ClearCounter clearCounter))
+            if (raycasthit.transform.TryGetComponent(out BaseCounter baseCounter))
             {
-                if (clearCounter != selectedCounter)
+                if (baseCounter != selectedCounter)
                 {
                     //when the raycast hits ClearCounter and it is not the same as the previously selected counter
-                    setSelectedCounter(clearCounter);
+                    setSelectedCounter(baseCounter);
                 }
             }
             else 
@@ -148,7 +151,7 @@ public class Player : MonoBehaviour
         transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotationSpeed);
     }
 
-    private void setSelectedCounter(ClearCounter selectedCounter) 
+    private void setSelectedCounter(BaseCounter selectedCounter) 
     {
         this.selectedCounter = selectedCounter;
 
@@ -157,5 +160,30 @@ public class Player : MonoBehaviour
         {
             SelectedCounter = selectedCounter
         });
+    }
+
+    public Transform GetKitchenObjectFollowTransform()
+    {
+        return kitchenObjectHoldPoint;
+    }
+
+    public void SetKitchenObject(KitchenObject kitchenObject)
+    {
+        this.kitchenObject = kitchenObject;
+    }
+
+    public KitchenObject GetKitchenObject()
+    {
+        return kitchenObject;
+    }
+
+    public void ClearKitchenObject()
+    {
+        kitchenObject = null;
+    }
+
+    public bool HasKitchenObject()
+    {
+        return kitchenObject != null;
     }
 }

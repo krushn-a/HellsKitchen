@@ -14,48 +14,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1755529495
+  lastShownTimestamp: 1755935301
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1755529495
+  checkedLastUpdateTimestamp: 1755935301
   lastQOTDResponse:
-    questionId: 212
-    questionText: 'What is the value stored in percentage?
+    questionId: 214
+    questionText: 'What is the position of the transform after running this code?
 
-      <p>int health =
-      25;</p>
+      <p>Vector3
+      targetPosition = new Vector3(10, 0, 0);</p>
 
-      <p>int healthMax = 100;</p>
+      <p>transform.position =
+      targetPosition;</p>
 
-      <p>float percentage = health
-      / healthMax;</p>'
-    answerA: 0.25f
-    answerB: 0
-    answerC: 2.5f
+      <p>targetPosition.x = 20;</p>'
+    answerA: (10, 0, 0)
+    answerB: (20, 0, 0)
+    answerC: Unknown
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1755529495
+  lastQotdTimestamp: 1755935301
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle_EndsSoon.png
     topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
     topLink: summer2025bundle
     bottomText: Get my Code Monkey Toolkit and make games BETTER and FASTER! 50%
       OFF right now!
     bottomLink: toolkit
-  lastDynamicHeaderTimestamp: 1755529495
+  lastDynamicHeaderTimestamp: 1755935301
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1755529495
+  websiteLatestMessageTimestamp: 1755935301
   websiteLatestVideos:
     videos:
+    - youTubeId: Lgmv7PYKka8
+      title: Does this AI FINALLY replace Game Devs? Should YOU worry?
+    - youTubeId: x4BTbeKinSI
+      title: TOP 10 FREE NEW Assets AUGUST 2025!
+    - youTubeId: HZ48JOAf-Ko
+      title: Did I STOP making TUTORIALS?
     - youTubeId: XJsidUVPOCY
       title: TOP 10 NEW Games, Made with Unity! (JULY 2025)
-    - youTubeId: CZ5rsOwgcl4
-      title: Unity 6.2 is HERE!
-    - youTubeId: taWg92DaORw
-      title: The 5 MUST HAVE Assets you NEED! (SALE ENDS SOON!)
-    - youTubeId: nGKd4yTP3M8
-      title: Learn Unity 2D Beginner FREE COMPLETE Course
-  websiteLatestVideosTimestamp: 1755529495
+  websiteLatestVideosTimestamp: 1755935301
